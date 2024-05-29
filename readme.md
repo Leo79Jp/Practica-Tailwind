@@ -17,6 +17,7 @@ El repositorio contiene los siguientes archivos:
 ### Paso 1: Preparar el Proyecto
 
 1. **Abrir el Proyecto:**
+
    - Clona o descarga el repositorio en tu computadora.
    - Abre el proyecto en tu editor de código preferido.
 
@@ -24,11 +25,12 @@ El repositorio contiene los siguientes archivos:
    - Vamos a utilizar la CDN de Tailwind CSS para incluirlo en nuestro proyecto.
    - Agrega el siguiente código dentro de la etiqueta `<head>` en tu `index.html` para incluir Tailwind CSS:
 
+```
    <link
      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
      rel="stylesheet"
    />
-   ```
+```
 
 3. **Conversión de Estilos a Tailwind CSS**
 
