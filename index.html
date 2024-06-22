@@ -3,42 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="style.css" />
-    <title>Practica de Diseño</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>    
+    <link rel="stylesheet" href="style.css" />
+   <title>Practica de Diseño</title>
   </head>
-  <body>
-    <header class="header">
-      <h1>Mi Sitio Web</h1>
-      <nav class="nav">
-        <a href="#">Inicio</a>
-        <a href="#">Servicios</a>
-        <a href="#">Contacto</a>
-      </nav>
-    </header>
+  <body  class="font-sans bg-neutral-100 text-zinc-800 leading-relaxed p-0 m-0 ">
+    
+ <header class="bg-neutral-700 text-neutral-100 py-8 px-0 text-center  ">
+  <h1 class="text-3xl font-bold py-6">Mi Sitio Web</h1>
+  <nav class="nav">
+    <a class="text-neutral-100 my-0 mx-3.5 font-bold " href="#">Inicio</a>
+    <a class="text-neutral-100 my-0 mx-3.5 font-bold " href="#">Servicios</a>
+    <a class="text-neutral-100 my-0 mx-3.5 font-bold " href="#">Contacto</a>
+  </nav>
+</header>
 
-    <section class="hero">
-      <h2>Bienvenidos a mi sitio</h2>
-      <p>Explora los servicios que ofrecemos.</p>
-      <button class="primary-btn">Saber Más</button>
+
+    <section class="hero text-neutral-100 text-center py-20 px-6 ">
+      <h2 class="text-4xl mb-5 font-bold ">Bienvenidos a mi sitio</h2>
+      <p class="text-xl mb-7">Explora los servicios que ofrecemos.</p>
+      <button class=" primary-btn bg-lightBlue-600 text-neutral-100 py-3 px-6 rounded cursor-pointer text-base ">Saber Más</button>
     </section>
 
-    <section class="cards">
-      <div class="card">
-        <h3>Servicio 1</h3>
-        <p>Descripción del servicio 1.</p>
+    <section class="flex flex-wrap justify-around my-10 mx-5 cards " >
+      <div class="card bg-white rounded-lg p-5 m-2.5 ">
+        <h3 class="text-2xl mb-3.5 mt-6 font-bold">Servicio 1</h3>
+        <p class="text-base text-stone-500 m-4 ">Descripción del servicio 1.</p>
       </div>
-      <div class="card">
-        <h3>Servicio 2</h3>
-        <p>Descripción del servicio 2.</p>
+      <div class="card bg-white rounded-lg p-5 m-2.5 ">
+        <h3 class="text-2xl mb-3.5 mt-6 font-bold">Servicio 2</h3>
+        <p class="text-base text-stone-500 m-4 ">Descripción del servicio 2.</p>
       </div>
-      <div class="card">
-        <h3>Servicio 3</h3>
-        <p>Descripción del servicio 3.</p>
+      <div class="card bg-white rounded-lg p-5 m-2.5 ">
+        <h3 class="text-2xl mb-3.5 mt-6 font-bold">Servicio 3</h3>
+        <p class="text-base text-stone-500 m-4 ">Descripción del servicio 3.</p>
       </div>
     </section>
 
-    <footer class="footer">
-      <p>&copy; 2024 Mi Sitio Web</p>
+    <footer class="bg-neutral-700 text-neutral-100 text-center p-3.5 ">
+      <p class="m-4">&copy; 2024 Mi Sitio Web</p>
     </footer>
+
   </body>
 </html>
